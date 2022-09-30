@@ -1,0 +1,157 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(15, 15, 15);
+    color: #DEDEDE;
+}
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #000000 inset;
+}
+.topnav{
+    background-color: #151515;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.topnav  li{
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 910px;
+}
+.topnav a{
+    color: rgb(233, 223, 223);
+    font-weight: 900;
+    padding: 30px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+}
+.topnav h1{
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topnav a:hover{
+    color: rgb(109, 103, 103);
+    cursor: pointer;
+    border-bottom: 2px solid whitesmoke;
+}
+.text {
+    padding: 90px;
+    font-size:198px;
+    padding-left: 100px;
+    font-family: monospace;
+}
+.text p {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.class h2 {
+    padding-left: 40px;
+    font-size: 40px;
+}
+.class img {
+    background-color: rgb(26, 26, 26);
+    border: 10px rgb(15,15,15);
+    border-radius: 90px;
+    padding: 60px;
+}
+div.img-gallery td a, div.img-gallery td img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+div.img-gallery td a:hover { 
+    z-index: 5; 
+    background-color: #151515;
+}
+
+div.img-gallery td a img:hover {
+    cursor: pointer;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    
+}
+#title {
+    text-align: center;
+    word-spacing: 360px;
+    padding-bottom: 100px;
+}
+.form-login {
+    border-color: solid black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.form-login-message {
+    border-color: solid rgb(72, 72, 72);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+}
+
+#footer {
+    background-color: rgb(15, 15, 15);
+}
+.box { 
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.req {
+    color: red;
+}
+#button-login {
+    font-size: 12pt;
+    width: 100%;
+    padding: 10px;
+    border-radius: 55px;
+    border: none;
+    font-family: 'Dosis', sans-serif
+}
+.bottom {
+    background-color: #0c0c0c;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+.bottom li {
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 1100px;
+}
+.bottom a {
+    color: rgb(233, 223, 223);
+    font-weight: 900;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+.bottom h1{
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+}
